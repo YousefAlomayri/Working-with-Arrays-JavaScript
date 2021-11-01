@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternals Heros</title>
+    <script src="Eternals.js" defer> </script>
+    
+</head>
+<body>
+    <div class="wrapper" style="margin: 15px;">
+    <header> <img src="et.jpg" style="padding-left: 3%;"></header>
+   <main>
+    
+
+        <p class="Welcome" style="font-weight: bold;font-size: 3ch; color:#9D2235 ;"></p>
+
+        <div class="characters_list" style="font-size: 3ch;"></div>
+
+        <div class="select_heropower">
+           
+            <label for="Heropower" style="font-size: 3ch;">Please type the kind of power that you are looking for:</label>
+
+            <input type="text" id="Heropower" name="Heropower" maxlength="20" size="25" required="required" placeholder="Enter Your Favorite Type of Power"></input>
+
+            <button onclick="getInfo(Eternals)" >Click for more information!</button>
+        
+            <p class="selectedHeroInfo" style="font-weight: bold;font-size: 3ch;"></p>
+            
+            <img class="selectedHeroImg" alt="Hero image will appear once you select one " />
+
+        </div>
+    </main>
+    <footer style="font-size:100% ; font-style: italic; text-align: center; font-family: Georgia, Times New Roman; padding: 2em ; background-color: #9D2235; color: #FFFFFF;">
+		<p> Copyright &copy; Alomayri Yousef  <br> 
+			<a style="color: #FFFFFF;" href="mailto:yalomayr@iu.edu">  yalomayr@iu.edu  </a> </p>
+	</footer>
+    </div> 
+
+</body>
+</html>
